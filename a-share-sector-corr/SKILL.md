@@ -41,7 +41,7 @@ Title format:
 Save files to:
 
 ```text
-/home/workdir/artifacts/sector_corr_{N}d.png
+./output/sector_corr_{N}d.png
 ```
 
 ## Data fetch
@@ -85,13 +85,13 @@ Apply `prop` to title, tick labels, and colorbar label (`相关系数`).
 When possible, run the bundled script instead of rewriting the pipeline:
 
 ```bash
-python3 /home/workdir/.grok/skills/a-share-sector-corr/scripts/generate_sector_corr.py
+python3 a-share-sector-corr/scripts/generate_sector_corr.py
 ```
 
 Optional args:
 
 ```bash
-python3 .../generate_sector_corr.py --windows 5,10,20,60 --outdir /home/workdir/artifacts
+python3 a-share-sector-corr/scripts/generate_sector_corr.py --windows 5,10,20,60 --outdir ./artifacts
 ```
 
 ## Response pattern

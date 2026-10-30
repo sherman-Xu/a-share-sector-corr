@@ -20,7 +20,7 @@ Compatible with the open [Agent Skills](https://agentskills.io) standard (`SKILL
 
 ### Option A — skills CLI
 ```bash
-npx skills add https://github.com/<YOUR_USER>/a-share-sector-corr
+npx skills add https://github.com/sherman-Xu/a-share-sector-corr
 ```
 
 ### Option B — manual
